@@ -1,0 +1,67 @@
+# --- Python / Bytecode ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Virtual Environments ---
+venv/
+.venv/
+env/
+ENV/
+pyvenv.cfg
+pip-selfcheck.json
+
+# --- Environment Variables / Secrets ---
+.env
+.env.local
+.env.*.local
+*.env
+
+# --- Logging & Debugging ---
+*.log
+app.log
+debug_models.py
+
+# --- Data Output & Temporary Files ---
+data/*
+!data/.gitkeep
+*.csv
+*.xlsx
+*.json
+.cache/
+
+# --- IDEs / Editors ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.project
+.pydevproject
+.settings/
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+db.sqlite3

@@ -1,0 +1,15 @@
+requests
+beautifulsoup4
+selenium
+pandas
+python-dotenv
+langchain
+pymongo
+tenacity
+tqdm
+pydantic
+googlemaps
+geopy
+lxml
+webdriver-manager
+langchain-google-genai
